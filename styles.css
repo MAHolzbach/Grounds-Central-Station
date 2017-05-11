@@ -1,0 +1,29 @@
+body, html {
+  margin: 0;
+  padding: 0; }
+  body .hero, html .hero {
+    overflow: hidden; }
+    body .hero video, html .hero video {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      min-width: 100vw;
+      min-height: 100vh;
+      z-index: 1; }
+    body .hero .title, html .hero .title {
+      z-index: 2;
+      position: relative;
+      font-family: "Righteous", cursive;
+      color: black;
+      font-weight: 800;
+      font-size: 4rem; }
+    body .hero .subtitle, html .hero .subtitle {
+      z-index: 2;
+      position: relative;
+      font-family: "Righteous", cursive;
+      color: black;
+      font-weight: 800;
+      font-size: 2rem; }
+
+/*# sourceMappingURL=styles.css.map */
