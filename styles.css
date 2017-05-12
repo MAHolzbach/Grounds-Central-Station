@@ -26,7 +26,8 @@ body {
       font-weight: 800;
       font-size: 3vw; }
     body .headerVid .hours {
-      font-size: 1.5vw; }
+      font-size: 1.5vw;
+      margin-top: -25px; }
   body .nav {
     border-top: black 1px solid;
     border-bottom: black 1px solid;
@@ -36,10 +37,54 @@ body {
     color: black;
     font-size: 1.5rem;
     margin: 5px; }
+    body .nav-item:hover {
+      color: #965f41; }
     body .nav-item i {
       margin: 5px; }
       @media (max-width: 425px) {
         body .nav-item i {
           font-size: 30px; } }
+  body .about h1 {
+    font-weight: 500; }
+  body .about h2 {
+    font-weight: 400; }
+  body .menuHead {
+    background-image: url(http://i.imgur.com/ofTSGSy.png);
+    background-size: cover; }
+    body .menuHead .title {
+      z-index: 2;
+      position: relative;
+      font-family: "Righteous", cursive;
+      color: black;
+      font-weight: 800;
+      font-size: 6vw; }
+    body .menuHead .subtitle {
+      z-index: 2;
+      position: relative;
+      font-family: "Righteous", cursive;
+      color: black;
+      font-weight: 800;
+      font-size: 3vw; }
+    body .menuHead .hours {
+      font-size: 1.5vw;
+      margin-top: -25px; }
+  body .menuPage {
+    background-color: #965f41; }
+    body .menuPage .menu {
+      background-color: #b8855c;
+      width: 100%; }
+      body .menuPage .menu .title {
+        font-family: "Righteous", cursive;
+        color: black;
+        font-weight: 800;
+        font-size: 3vw; }
+      body .menuPage .menu .subtitle {
+        font-family: "Righteous", cursive;
+        color: black; }
+      body .menuPage .menu li {
+        font-family: "Righteous", cursive;
+        color: black; }
+  body .footer {
+    background-color: #965f41; }
 
 /*# sourceMappingURL=styles.css.map */
