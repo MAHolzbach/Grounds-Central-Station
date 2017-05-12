@@ -1,9 +1,9 @@
-body, html {
+body {
   margin: 0;
   padding: 0; }
-  body .hero, html .hero {
+  body .headerVid {
     overflow: hidden; }
-    body .hero video, html .hero video {
+    body .headerVid video {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -11,19 +11,35 @@ body, html {
       min-width: 100vw;
       min-height: 100vh;
       z-index: 1; }
-    body .hero .title, html .hero .title {
+    body .headerVid .title {
       z-index: 2;
       position: relative;
       font-family: "Righteous", cursive;
       color: black;
       font-weight: 800;
-      font-size: 4rem; }
-    body .hero .subtitle, html .hero .subtitle {
+      font-size: 6vw; }
+    body .headerVid .subtitle {
       z-index: 2;
       position: relative;
       font-family: "Righteous", cursive;
       color: black;
       font-weight: 800;
-      font-size: 2rem; }
+      font-size: 3vw; }
+    body .headerVid .hours {
+      font-size: 1.5vw; }
+  body .nav {
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    margin: 5px; }
+  body .nav-item {
+    font-family: "Righteous", cursive;
+    color: black;
+    font-size: 1.5rem;
+    margin: 5px; }
+    body .nav-item i {
+      margin: 5px; }
+      @media (max-width: 425px) {
+        body .nav-item i {
+          font-size: 30px; } }
 
 /*# sourceMappingURL=styles.css.map */

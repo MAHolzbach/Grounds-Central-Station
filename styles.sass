@@ -1,8 +1,10 @@
-body, html
+$font: 'Righteous', cursive
+
+body
   margin: 0
   padding: 0
 
-  .hero
+  .headerVid
     overflow: hidden
     video
       position: absolute
@@ -15,14 +17,31 @@ body, html
     .title
       z-index: 2
       position: relative
-      font-family: 'Righteous', cursive
+      font-family: $font
       color: black
       font-weight: 800
-      font-size: 4rem
+      font-size: 6vw
     .subtitle
       z-index: 2
       position: relative
-      font-family: 'Righteous', cursive
+      font-family: $font
       color: black
       font-weight: 800
-      font-size: 2rem
+      font-size: 3vw
+    .hours
+      font-size: 1.5vw
+
+  .nav
+    border-top: black 1px solid
+    border-bottom: black 1px solid
+    margin: 5px
+
+  .nav-item
+    font-family: 'Righteous', cursive
+    color: black
+    font-size: 1.5rem
+    margin: 5px
+    i
+      margin: 5px
+      @media (max-width: 425px)
+        font-size: 30px
