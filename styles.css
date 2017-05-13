@@ -86,5 +86,7 @@ body {
         color: black; }
   body .footer {
     background-color: #965f41; }
+    body .footer p, body .footer strong {
+      color: black; }
 
 /*# sourceMappingURL=styles.css.map */
