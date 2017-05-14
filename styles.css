@@ -69,21 +69,32 @@ body {
       font-size: 1.5vw;
       margin-top: -25px; }
   body .menuPage {
-    background-color: #965f41; }
+    background-image: url(http://i.imgur.com/xrazXpa.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover; }
     body .menuPage .menu {
-      background-color: #b8855c;
       width: 100%; }
       body .menuPage .menu .title {
         font-family: "Righteous", cursive;
         color: black;
-        font-weight: 800;
-        font-size: 3vw; }
+        font-weight: 800; }
       body .menuPage .menu .subtitle {
         font-family: "Righteous", cursive;
         color: black; }
       body .menuPage .menu li {
         font-family: "Righteous", cursive;
         color: black; }
+  body .contactPage {
+    font-family: "Righteous", cursive;
+    color: black;
+    height: 100%;
+    background-image: url(http://i.imgur.com/tgz3EL7.png);
+    background-size: cover; }
+    body .contactPage #map {
+      height: 80vh;
+      width: 100%;
+      border: 2px black solid; }
   body .footer {
     background-color: #965f41; }
     body .footer p, body .footer strong {
