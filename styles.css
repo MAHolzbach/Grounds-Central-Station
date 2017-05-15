@@ -94,7 +94,8 @@ body {
     body .contactPage #map {
       height: 80vh;
       width: 100%;
-      border: 2px black solid; }
+      border: 2px black solid;
+      margin-bottom: 10px; }
   body .footer {
     background-color: #965f41; }
     body .footer p, body .footer strong {
