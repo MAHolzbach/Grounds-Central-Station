@@ -70,7 +70,7 @@ body {
       margin-top: -25px; }
   body .menuPage {
     background-image: url(http://i.imgur.com/xrazXpa.jpg);
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background-size: cover; }
     body .menuPage .menu {
@@ -81,7 +81,7 @@ body {
         font-weight: 800; }
       body .menuPage .menu .subtitle {
         font-family: "Righteous", cursive;
-        color: black; }
+        color: #965f41; }
       body .menuPage .menu li {
         font-family: "Righteous", cursive;
         color: black; }
