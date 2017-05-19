@@ -1,15 +1,23 @@
+//Menu text adjustment for mobile.
 const resizer = () => {
   if($(window).width() < 1000) {
     $('.rightItems').removeClass('has-text-right');
   } else {
     $('.rightItems').addClass('has-text-right');
   }
-}
+};
 
 $(window).resize(resizer);
 
 $(document).ready(resizer);
 
+
+$('img').click(function() {
+  $(this).addClass('pulse');
+});
+
+
+//Google map.
 function initMap() {
         var groundCentralStation = {lat: 38.751510, lng: -77.471822};
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -22,6 +30,7 @@ function initMap() {
         });
       }
 
+//Contact form.
 (function(d, t){
    var g = d.createElement(t),
        s = d.getElementsByTagName(t)[0];
