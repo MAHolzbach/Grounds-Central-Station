@@ -11,24 +11,25 @@ $(window).resize(resizer);
 
 $(document).ready(resizer);
 
-
-$('img').click(function() {
-  $(this).addClass('pulse');
+//Image text display toggle.
+$('.imgDiv').click(function() {
+  $(this).find('.imgText').animate({
+    opacity: 'toggle'
+  });
 });
-
 
 //Google map.
 function initMap() {
-        var groundCentralStation = {lat: 38.751510, lng: -77.471822};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16,
-          center: {lat: 38.752, lng: -77.472}
-        });
-        var marker = new google.maps.Marker({
-          position: groundCentralStation,
-          map: map
-        });
-      }
+  var groundCentralStation = {lat: 38.751510, lng: -77.471822};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 16,
+    center: {lat: 38.752, lng: -77.472}
+  });
+  var marker = new google.maps.Marker({
+    position: groundCentralStation,
+    map: map
+  });
+}
 
 //Contact form.
 (function(d, t){

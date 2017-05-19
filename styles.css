@@ -96,6 +96,23 @@ body {
       width: 100%;
       border: 2px black solid;
       margin-bottom: 10px; }
+  body .photoPage .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative; }
+    body .photoPage .container .imgDiv {
+      position: relative;
+      transition: 300ms ease-in;
+      transform: scale(1); }
+      body .photoPage .container .imgDiv:hover {
+        transform: scale(1.05);
+        transition: 300ms ease-in; }
+      body .photoPage .container .imgDiv .imgText {
+        display: none;
+        padding: 10px;
+        background-color: rgba(105, 105, 105, 0.7);
+        color: white;
+        position: absolute; }
   body .footer {
     background-color: #965f41; }
     body .footer p, body .footer strong {

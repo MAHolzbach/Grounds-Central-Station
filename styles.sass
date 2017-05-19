@@ -106,6 +106,25 @@ body
       border: 2px black solid
       margin-bottom: 10px
 
+  .photoPage
+    .container
+      margin-top: 20px
+      margin-bottom: 20px
+      position: relative
+      .imgDiv
+        position: relative
+        transition: 300ms ease-in
+        transform: scale(1)
+        &:hover
+          transform: scale(1.05)
+          transition: 300ms ease-in
+        .imgText
+          display: none
+          padding: 10px
+          background-color: rgba(105,105,105, 0.7)
+          color: white
+          position: absolute
+
   .footer
     background-color: #965f41
     p, strong
