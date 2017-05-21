@@ -1,3 +1,12 @@
+const vidChecker = () => {
+  if($(window).width() < 1000) {
+    $('video').attr('autoplay', false)
+  } 
+};
+
+$(window).resize(vidChecker);
+$(document).ready(vidChecker);
+
 //Menu text adjustment for mobile.
 const resizer = () => {
   if($(window).width() < 1000) {
