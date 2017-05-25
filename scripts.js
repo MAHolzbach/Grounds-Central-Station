@@ -1,7 +1,12 @@
+/*jshint esversion: 6 */
+
+//Vid or poster for home page header.
 const vidChecker = () => {
   if($(window).width() < 1000) {
-    $('video').attr('autoplay', false)
-  } 
+    $('video').attr('autoplay', false);
+  } else {
+    $('video').attr('autoplay', true);
+  }
 };
 
 $(window).resize(vidChecker);
@@ -17,7 +22,6 @@ const resizer = () => {
 };
 
 $(window).resize(resizer);
-
 $(document).ready(resizer);
 
 //Image text display toggle.
